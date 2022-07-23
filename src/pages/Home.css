@@ -1,0 +1,76 @@
+.imageHome {
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+}
+
+.text1 {
+    padding: 10px;
+    text-align: left;
+    margin-top: -80px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text2 {
+    text-align: right;
+    margin-top: -60px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: underline  white;
+}
+
+h6 {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+  }
+  h6:before, h6:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h6:before {
+    margin-right: 10px
+  }
+  h6:after {
+    margin-left: 10px
+  }
+
+.h4{
+  margin-top: 50px;
+  padding: 100px;
+}
+
+.homeCard{
+  margin: 0;
+  width: 100%;
+  border: 2px solid;
+  border: 2px solid;
+}
+
+.homeText{
+  display: block;
+  margin-top: 65px;
+  text-align: center;
+}
+
+.fabbutton{
+  margin-left: -65px;
+}
+
+.textfab{
+  font-size: 11px;
+}
+
+.homeGambar{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}

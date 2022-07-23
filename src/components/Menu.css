@@ -1,0 +1,27 @@
+.imageSidemenu {
+    width: 100%;
+    height: 482px;
+    display: block;
+    object-fit: fill;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.background {
+    color: #ff5e5e;
+}
+
+.content{
+    --ion-background-color: #ff5e5e;
+}
+
+.gambarKnife{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 150px;
+}
+.list {
+    --ion-background-color: white;
+}
